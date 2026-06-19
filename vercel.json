@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ogbalconysafetynets.vercel.app"
+        }
+      ],
+      "destination": "https://ogbalconysafetynets.in/$1",
+      "permanent": true
+    }
+  ]
+}
